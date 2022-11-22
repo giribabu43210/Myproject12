@@ -1,0 +1,4 @@
+FROM ubuntu
+USER giribabu4310@gmail.com
+RUN apt-get update
+RUN apt-get install -y git maven ansible
